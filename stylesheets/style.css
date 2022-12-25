@@ -13,10 +13,19 @@ padding: 0;
 
 }
 .main{
+    display:flex;
+    justify-content: space-around;
     position: relative;
     width: 100%;
     height: 100vh;
     background-color: #FD8;
+}
+
+@media(max-width: 900px)
+{
+    .main{
+    flex-direction: column;
+    }
 }
 
 nav{
