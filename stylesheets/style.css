@@ -1,0 +1,111 @@
+html{
+    scroll-behavior: smooth;
+}
+marquee{
+    background-color: antiquewhite;
+    font-size: 20px;
+    color: indianred;
+}
+
+*{
+margin: 0;
+padding: 0;
+
+}
+.main{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #FD8;
+}
+
+nav{
+    display: flex;
+    width: 90%;
+    height: 15%;
+    margin: auto;
+    padding: 20px 0; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;  
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: floralwhite;
+}
+
+.content{
+    margin-left: 57%;
+    margin-top: 6%; 
+}
+
+.content h1{
+    font-size: 50px;
+}
+
+.content p{
+    padding-top: 10px;
+    color: #555;
+}
+
+.image{
+    position: absolute;
+    top: 110px;
+    left: 57px;
+}
+
+.E{
+  background-image: linear-gradient(#FFD4B2 , #CEEDC7);
+  
+}
+
+#Educa,#Proje,#Uni,#stde{
+    vertical-align: bottom;
+}
+
+.P{
+  background-image: linear-gradient(#F8F988 , #2C74B3);
+  text-align: end;
+}
+
+.U{
+  background-image: linear-gradient(#FFFBEB , #009EFF);
+  
+}
+
+.SD{
+  background-image: linear-gradient(#CEEDC7 ,#FFFBEB, #D23369);
+  text-align: end;
+}
+
+::-webkit-scrollbar{
+    width:20px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: aliceblue;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: sandybrown;
+}
+
+footer{
+    text-align: center;
+    background-color: antiquewhite;
+    color:indianred;
+    font-weight: bold;
+}
